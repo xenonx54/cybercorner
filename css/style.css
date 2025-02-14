@@ -1,5 +1,5 @@
 body {
-  background-image:url(https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/background.png);
+  background-image:url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/background.png');
   background-repeat: repeat;
   background-size: cover;
   color: #e6e6e6;
@@ -11,7 +11,7 @@ body {
 
 #content {
   max-width: 960px;
-  background-image:url(https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/watercolor-795162.jpg);
+  background-image:url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/watercolor-795162.jpg');
   background-repeat: repeat-y;
   margin: 0 auto;
   padding: 15px;
@@ -45,8 +45,8 @@ a:link {
 }
 
 .navbar {
-  height: 100px;
-  background-image: url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/navbar.gif');;
+  height: 500px;
+  background-image: url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/navbar.gif');
   background-size: cover;
   background-repeat: no-repeat;
   position: sticky;
@@ -98,7 +98,7 @@ a:link {
 }
 
     .sidebar li {
-				background: transparent url(https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/bullet1.gif) no-repeat left 4px;
+				background: transparent url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/bullet1.gif') no-repeat left 4px;
 				padding: 0px 0px 12px 14px;
 				text-shadow: 2px 2px 3px black, 0 0 25px white, 0 0 5px black;
 				}
