@@ -1,5 +1,5 @@
 body {
-  background-image:url(https://raw.githubusercontent.com/xenonx54/cybercorner/main/background.png?token=GHSAT0AAAAAACJUTVJFIJWCTQ6GPZC45PXQZKADSFA);
+  background-image:url(https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/background.png?token=GHSAT0AAAAAACJUTVJFIJWCTQ6GPZC45PXQZKADSFA);
   background-repeat: repeat;
   background-size: cover;
   color: #e6e6e6;
@@ -11,7 +11,7 @@ body {
 
 #content {
   max-width: 960px;
-  background-image:url(https://raw.githubusercontent.com/xenonx54/cybercorner/main/watercolor-795162.jpg?token=GHSAT0AAAAAACJUTVJFE5JNFHWSGO74UL5MZKADOYQ);
+  background-image:url(https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/watercolor-795162.jpg?token=GHSAT0AAAAAACJUTVJFE5JNFHWSGO74UL5MZKADOYQ);
   background-repeat: repeat-y;
   margin: 0 auto;
   padding: 15px;
@@ -46,7 +46,7 @@ a:link {
 
 .navbar {
   height: 100px;
-  background-image: url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/navbar.gif');;
+  background-image: url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/navbar.gif');;
   background-size: cover;
   background-repeat: no-repeat;
   position: sticky;
@@ -76,7 +76,7 @@ a:link {
   position: absolute;
   top: 0px;
   padding-top: 40px;
-  background-image: url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/scribble-4682996.png?token=GHSAT0AAAAAACJUTVJEINV4325LG6BPSBZ4ZKADRSA');
+  background-image: url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/scribble-4682996.png?token=GHSAT0AAAAAACJUTVJEINV4325LG6BPSBZ4ZKADRSA');
   background-size: contain;
   background-repeat: no-repeat;
   float: left;
@@ -98,7 +98,7 @@ a:link {
 }
 
     .sidebar li {
-				background: transparent url(https://raw.githubusercontent.com/xenonx54/cybercorner/main/bullet1.gif) no-repeat left 4px;
+				background: transparent url(https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/bullet1.gif) no-repeat left 4px;
 				padding: 0px 0px 12px 14px;
 				text-shadow: 2px 2px 3px black, 0 0 25px white, 0 0 5px black;
 				}
