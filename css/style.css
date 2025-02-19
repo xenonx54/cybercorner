@@ -74,8 +74,8 @@ a:link {
 .sidebar {
   width: 1000px;
   height: auto;
-  margin-left: 70vh;
-  padding-left: 7vh;
+  margin-left: 320px;
+  padding-left: 40px;
   position: absolute;
   top: 10px;
   padding-top: 40px;
