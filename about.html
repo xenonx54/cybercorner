@@ -1,45 +1,131 @@
-<!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The web site of cybercorner</title>
-    <!-- The style.css file allows you to change the look of your web pages.
-         If you include the next line in all your web pages, they will all share the same look.
-         This makes it easier to make new pages for your site. -->
-    <link href="css/style.css" rel="stylesheet" type="text/css" media="all">
-  </head>
-  <body>
-      <div class="navbar">
-        <ul>
-        <li><a href="/cybercorner" class="">Home</a></li>
-        <li><a href="/cybercorner/videos" class="">Videos</a></li>
-        <li><a href="/cybercorner/photos" class="">Photos</a></li>
-				<li><a href="/cybercorner/stories" class="">Stories</a></li>
-				<li><a href="/cybercorner/art" class="">Art</a></li>
-				<li><a href="/cybercorner/about" class="">About</a></li>
-		    </ul>
-    </div>
-    <div>
-      <img src="https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/cybercornermain.gif" alt="welcome." id="center" style="-webkit-filter: drop-shadow(5px 5px 5px #222); filter: drop-shadow(5px 5px 5px #222); padding: 10px;">
-    </div>
-    <aside class="sidebar" role="complementary">
-      <div class="wrapper">
-        <li><a href="/cybercorner" class="">Home</a></li>
-        <li><a href="/cybercorner/videos" class="">Videos</a></li>
-        <li><a href="/cybercorner/photos" class="">Photos</a></li>
-				<li><a href="/cybercorner/stories" class="">Stories</a></li>
-				<li><a href="/cybercorner/art" class="">Art</a></li>
-				<li><a href="/cybercorner/about" class="">About</a></li>
-        </div>
-       </aside>
-<div class="body-text">
-<!-- body content -->
-</div> 
-    <div id=content>
-     <h3>About This Site</h3>
-      <p>
-      </p>
-       </div>
-  </body>
-</html>
+body {
+  background-image:url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/background.png');
+  background-repeat: repeat;
+  background-size: cover;
+  color: #e6e6e6;
+	font: 75% georgia, sans-serif;
+	line-height: 1.88889;
+	margin: auto;
+  padding: 0px;
+}
+
+#content {
+  max-width: 960px;
+  background-image:url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/watercolor-795162.jpg');
+  background-repeat: repeat-y;
+  margin: 0 auto;
+  padding: 15px;
+  box-shadow: 1px 1px 2px black, 0 0 2px #bfbfbf, 0 0 1px white;;
+} 
+
+p {
+	margin-top: 0; 
+	text-align: justify;
+}
+
+h3 {
+	font: italic normal 1.4em georgia, sans-serif;
+	letter-spacing: 1px; 
+	margin-bottom: 10;
+}
+
+#center {
+  max-height: 100%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  float: none;
+}
+
+a:link {
+	font-weight: bold; 
+	text-decoration: none; 
+	color: white;
+}
+
+.navbar {
+  height: 500px;
+  background-image: url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/navbar.gif');
+  background-size: cover;
+  background-repeat: no-repeat;
+  position: sticky;
+  top: 0px;
+  z-index:1;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: auto;
+  padding: 0.1vw;
+  font-size: 3vw;
+}
+
+.navbar ul li {
+  float: left;
+}
+
+.navbar ul li a {
+  display: block;
+  text-align: center;
+  padding: 14px 16px;
+}
+
+.sidebar {
+  width: 1000px;
+  height: auto;
+  margin-left: 320px;
+  padding-left: 40px;
+  position: absolute;
+  top: 10px;
+  padding-top: 40px;
+  background-image: url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/scribble-4682996.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  float: left;
+  min-height: 600px;
+  overflow: hidden;
+  
+}
+
+  .sidebar a {color: white; text-decoration: none;}
+  .sidebar a:visited {color: lightgrey;}
+  .sidebar a:hover {color: lightgrey; text-decoration: underline;}
+
+  .sidebar div {
+    padding-top: 10px;
+    padding-left: 1vh;
+    font-size: 140%;
+    display: block;
+    text-shadow: 2px 2px 3px black, 0 0 25px white, 0 0 5px black;
+}
+
+    .sidebar li {
+				background: transparent url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/bullet1.gif') no-repeat left 4px;
+				padding: 0px 0px 12px 14px;
+				text-shadow: 2px 2px 3px black, 0 0 25px white, 0 0 5px black;
+				}
+
+.body-text {
+  margin-left: 150px;
+  font-size: 80%;
+}
+
+@media only screen and (max-width: 1280px) {
+    .sidebar {
+        display: none;
+    }
+}
+
+
+@media only screen and (min-width: 1280px) {
+    .navbar {
+        display: none;
+    }
+}
+
+@media only screen and (max-width: 1280px) {
+    .navbar {
+        display: block;
+    }
+}
