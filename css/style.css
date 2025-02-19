@@ -45,7 +45,7 @@ a:link {
 }
 
 .navbar {
-  height: 900px;
+  height: 500px;
   background-image: url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/navbar.gif');
   background-size: cover;
   background-repeat: no-repeat;
@@ -72,15 +72,17 @@ a:link {
 }
 
 .sidebar {
-  height: 3vh;
+  width: 1000px;
+  height: auto;
+  padding-left: 7vh;
   position: absolute;
-  top: 0px;
+  top: 10px;
   padding-top: 40px;
   background-image: url('https://raw.githubusercontent.com/xenonx54/cybercorner/main/assets/scribble-4682996.png');
   background-size: contain;
   background-repeat: no-repeat;
   float: left;
-  min-height: 200px;
+  min-height: 600px;
   overflow: hidden;
   
 }
